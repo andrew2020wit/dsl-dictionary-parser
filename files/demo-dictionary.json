@@ -1,0 +1,982 @@
+[
+	{
+		"term": "quicken",
+		"articles": [
+			{
+				"partOfSpeech": "verb",
+				"transcription": "'kwɪk(ə)n",
+				"definitions": [
+					{
+						"definition": "а) ускорять",
+						"examples": [
+							{
+								"original": "You'll have to quicken up your rate of work if you want to finish by the agreed date.",
+								"translation": "Тебе нужно работать побыстрее, если ты хочешь закончить к сроку."
+							},
+							{
+								"original": "He quickened his pace a little.",
+								"translation": "Он слегка ускорил шаг."
+							}
+						],
+						"synonym": "expedite 1., precipitate 3."
+					},
+					{
+						"definition": "б) ускоряться",
+						"examples": [
+							{
+								"original": "His breath quickened.",
+								"translation": "Его дыхание участилось."
+							}
+						],
+						"synonym": "slow 3."
+					},
+					{
+						"definition": "2) книжн."
+					},
+					{
+						"definition": "а) оживить, вдохнуть жизнь",
+						"synonym": "animate 2., enliven"
+					},
+					{
+						"definition": "б) ожить, обрести жизнь, стать живым",
+						"examples": [
+							{
+								"original": "The seed which is sown shall one day sprout and quicken.",
+								"translation": "Посеянные семена однажды прорастут и оживут."
+							},
+							{
+								"original": "the hopes that quicken",
+								"translation": "возрождающиеся надежды"
+							}
+						],
+						"synonym": "revive, vivify"
+					},
+					{
+						"definition": "3) книжн. возбуждать, побуждать, воодушевлять, стимулировать",
+						"synonym": "stimulate, stir up, rouse I, 1., excite, inspire"
+					},
+					{
+						"definition": "а) начинать чувствовать движение плода (при беременности)"
+					},
+					{
+						"definition": "б) начинать двигаться (о плоде)"
+					},
+					{
+						"definition": "5) уст. увеличивать кривизну (кривой), крутизну (склона, скоса)"
+					}
+				]
+			},
+			{
+				"partOfSpeech": "noun",
+				"transcription": "'kwɪk(ə)n",
+				"definitions": [
+					{
+						"definition": "рябина (обыкновенная); рябина домашняя",
+						"synonym": "rowan-tree, service tree"
+					}
+				]
+			}
+		]
+	},
+	{
+		"term": "query",
+		"articles": [
+			{
+				"partOfSpeech": "noun",
+				"transcription": "'kwɪərɪ",
+				"definitions": [
+					{
+						"definition": "1) вопрос",
+						"examples": [
+							{
+								"original": "to raise a query about smth.",
+								"translation": "задать вопрос о чём-л."
+							},
+							{
+								"original": "to answer a query",
+								"translation": "отвечать на вопрос"
+							},
+							{
+								"original": "We have a number of queries regarding delivery.",
+								"translation": "У нас есть несколько вопросов по доставке."
+							}
+						],
+						"synonym": "question 1., inquiry"
+					},
+					{
+						"definition": "2) информ. запрос"
+					},
+					{
+						"definition": "3) сомнение",
+						"examples": [
+							{
+								"original": "There was a query as to who actually owned the hotel.",
+								"translation": "Возникло сомнение относительно того, кто же на самом деле был хозяином отеля."
+							}
+						]
+					},
+					{
+						"definition": "4) вопросительный знак (на полях текста)",
+						"examples": [
+							{
+								"original": "Put a query against Jack's name",
+								"translation": "I'm not sure if he's coming. — Поставь вопросительный знак напротив имени Джека - я не уверен, что он придёт."
+							}
+						]
+					}
+				]
+			},
+			{
+				"partOfSpeech": "verb",
+				"transcription": "'kwɪərɪ",
+				"definitions": [
+					{
+						"definition": "а) спрашивать; осведомляться; выяснять, уточнять",
+						"examples": [
+							{
+								"original": "to query smb. about smb./ smth.",
+								"translation": "расспрашивать кого-л. о ком-л. / чём-л."
+							}
+						]
+					},
+					{
+						"definition": "б) консультироваться",
+						"examples": [
+							{
+								"original": "I must query your suggestion with the director, it doesn't seem completely suitable.",
+								"translation": "Я должен проконсультироваться насчёт вашего предложения с директором - мне кажется, что оно не вполне приемлемо."
+							}
+						]
+					},
+					{
+						"definition": "2) запрашивать (информацию)"
+					},
+					{
+						"definition": "3) выражать сомнение, подвергать сомнению"
+					},
+					{
+						"definition": "4) ставить вопросительный знак; помечать вопросительным знаком"
+					}
+				]
+			}
+		]
+	},
+	{
+		"term": "quest",
+		"articles": [
+			{
+				"partOfSpeech": "noun",
+				"transcription": "kwest",
+				"definitions": [
+					{
+						"definition": "1) поиск(и)",
+						"examples": [
+							{
+								"original": "in quest of smb. / smth.",
+								"translation": "в поисках кого-л. / чего-л."
+							},
+							{
+								"original": "quest for oil",
+								"translation": "поиск нефти"
+							}
+						]
+					},
+					{
+						"definition": "2) поэт. предмет поисков, искомый предмет"
+					},
+					{
+						"definition": "3) ист. поиски приключений (в рыцарских романах)"
+					},
+					{
+						"definition": "4) уст. сбор пожертвований (в римско-католической церкви)"
+					}
+				]
+			},
+			{
+				"partOfSpeech": "verb",
+				"transcription": "kwest",
+				"definitions": [
+					{
+						"definition": "1) (quest for) искать; производить поиски, разыскивать",
+						"examples": [
+							{
+								"original": "For over 100 years, men have been questing for gold in the hills.",
+								"translation": "Уже больше ста лет люди искали в этих холмах золото."
+							}
+						]
+					},
+					{
+						"definition": "а) охот. искать дичь (о собаках)"
+					},
+					{
+						"definition": "б) искать пищу (о животных)"
+					},
+					{
+						"definition": "3) уст. собирать пожертвования (в католической церкви)"
+					}
+				]
+			}
+		]
+	},
+	{
+		"term": "question",
+		"articles": [
+			{
+				"partOfSpeech": "noun",
+				"transcription": "'kwesʧən",
+				"definitions": [
+					{
+						"definition": "1) вопрос",
+						"examples": [
+							{
+								"original": "awkward question",
+								"translation": "неуместный, нелепый вопрос"
+							},
+							{
+								"original": "blunt / direct question",
+								"translation": "прямой вопрос"
+							},
+							{
+								"original": "embarrassing question",
+								"translation": "нескромный вопрос"
+							},
+							{
+								"original": "examination question",
+								"translation": "экзаменационный вопрос"
+							},
+							{
+								"original": "hypothetical question",
+								"translation": "гипотетический вопрос"
+							},
+							{
+								"original": "indirect / oblique / reported question",
+								"translation": "лингв. косвенный вопрос"
+							},
+							{
+								"original": "irrelevant question",
+								"translation": "вопрос, не относящийся к делу; вопрос не по теме"
+							},
+							{
+								"original": "pointed / tricky question",
+								"translation": "каверзный вопрос"
+							},
+							{
+								"original": "relevant question",
+								"translation": "вопрос, относящийся к делу; вопрос по теме"
+							},
+							{
+								"original": "rhetorical question",
+								"translation": "риторический вопрос"
+							},
+							{
+								"original": "to address / put a question to smb.",
+								"translation": "задавать вопрос кому-л."
+							},
+							{
+								"original": "to answer / reply to / respond to a question",
+								"translation": "отвечать на вопрос"
+							},
+							{
+								"original": "to bring up / raise a question",
+								"translation": "поднимать, ставить вопрос"
+							},
+							{
+								"original": "to parry smb.'s question",
+								"translation": "парировать чей-л. вопрос"
+							},
+							{
+								"original": "The senator fielded all the questions.",
+								"translation": "Сенатор ответил на все вопросы."
+							}
+						],
+						"synonym": "query 1., inquiry"
+					},
+					{
+						"definition": "а) проблема, дело; задача; обсуждаемый вопрос",
+						"examples": [
+							{
+								"original": "burning / explosive question",
+								"translation": "животрепещущий, насущный вопрос"
+							},
+							{
+								"original": "controversial / debatable / moot question",
+								"translation": "спорный, дискуссионный вопрос"
+							},
+							{
+								"original": "crucial question",
+								"translation": "важный, ключевой вопрос"
+							},
+							{
+								"original": "open question",
+								"translation": "нерешённая проблема, открытый вопрос"
+							},
+							{
+								"original": "sticky / thorny / ticklish / tricky question",
+								"translation": "сложный, щекотливый вопрос"
+							},
+							{
+								"original": "vexed question",
+								"translation": "больной вопрос"
+							},
+							{
+								"original": "statement of a question",
+								"translation": "постановка вопроса"
+							},
+							{
+								"original": "smth. in question",
+								"translation": "что-л., о чём идёт речь"
+							},
+							{
+								"original": "the question is",
+								"translation": "дело в том, что"
+							},
+							{
+								"original": "the matter in question",
+								"translation": "рассматриваемый вопрос"
+							}
+						],
+						"synonym": "problem 1., matter 1."
+					},
+					{
+						"definition": "б) полит. предложение"
+					},
+					{
+						"definition": "3) сомнение; возражение",
+						"examples": [
+							{
+								"original": "beyond (all) / out of / past / without question",
+								"translation": "без сомнения, вне всякого сомнения"
+							},
+							{
+								"original": "It's true beyond question.",
+								"translation": "Вне всякого сомнения, это правда."
+							},
+							{
+								"original": "to clear up a question",
+								"translation": "разрешить сомнение"
+							},
+							{
+								"original": "to make no question of smth.",
+								"translation": "не сомневаться в чём-л., не подвергать что-л. сомнению"
+							},
+							{
+								"original": "He requires from generals and officers that they carry out orders without questions.",
+								"translation": "Он требует, чтобы генералы и офицеры исполняли приказы без обсуждения."
+							}
+						],
+						"synonym": "objection"
+					},
+					{
+						"definition": "4) возможность, шанс",
+						"examples": [
+							{
+								"original": "There is no question of escape.",
+								"translation": "Нет ни малейшего шанса сбежать."
+							}
+						],
+						"synonym": "chance 1., possibility"
+					},
+					{
+						"definition": "а) допрос, следствие; расследование"
+					},
+					{
+						"definition": "б) ист. пытка",
+						"examples": [
+							{
+								"original": "to put smb. to the question",
+								"translation": "подвергать пытке"
+							}
+						]
+					}
+				]
+			},
+			{
+				"partOfSpeech": "verb",
+				"transcription": "'kwesʧən",
+				"definitions": [
+					{
+						"definition": "а) спрашивать, задавать вопросы",
+						"synonym": "ask, inquire"
+					},
+					{
+						"definition": "б) допрашивать; выпытывать, выспрашивать",
+						"synonym": "interrogate, quiz II, 2., examine"
+					},
+					{
+						"definition": "2) подвергать сомнению, сомневаться",
+						"examples": [
+							{
+								"original": "to question the credibility of smb.'s. story",
+								"translation": "сомневаться в правдоподобности чьего-л. рассказа"
+							},
+							{
+								"original": "to question the wisdom of smth.",
+								"translation": "сомневаться в разумности чего-л."
+							}
+						],
+						"synonym": "doubt 1., dispute 2."
+					},
+					{
+						"definition": "3) исследовать; рассматривать (явления, факты)",
+						"examples": [
+							{
+								"original": "The professor wants us to question facts.",
+								"translation": "Профессор хочет, чтобы мы рассмотрели факты."
+							}
+						],
+						"synonym": "examine"
+					}
+				]
+			}
+		]
+	},
+	{
+		"term": "question from the floor",
+		"articles": []
+	},
+	{
+		"term": "question mark",
+		"articles": []
+	},
+	{
+		"term": "long",
+		"articles": [
+			{
+				"partOfSpeech": "adjective",
+				"transcription": "lɔŋ",
+				"definitions": [
+					{
+						"definition": "а) длинный; больше своей ширины",
+						"examples": [
+							{
+								"original": "long legs / arms / fingernails",
+								"translation": "длинные ноги, руки, ногти"
+							},
+							{
+								"original": "long road / journey",
+								"translation": "дальняя дорога"
+							},
+							{
+								"original": "long distance",
+								"translation": "дальнее расстояние"
+							},
+							{
+								"original": "the long side of the room",
+								"translation": "длина комнаты"
+							},
+							{
+								"original": "it's a long way to go",
+								"translation": "это далеко"
+							},
+							{
+								"original": "a long way about",
+								"translation": "немалый крюк (объезд)"
+							},
+							{
+								"original": "at long range",
+								"translation": "на большом расстоянии"
+							},
+							{
+								"original": "long waves",
+								"translation": "дио — длинные волны"
+							},
+							{
+								"original": "He came from a long way off.",
+								"translation": "Прибыл он издалека."
+							}
+						]
+					},
+					{
+						"definition": "б) разг. долговязый, высокий",
+						"synonym": "tall"
+					},
+					{
+						"definition": "в) обладающий определённой протяжённостью; имеющий такую-то длину",
+						"examples": [
+							{
+								"original": "a mile / seven yards long",
+								"translation": "длиной в одну милю, семь ярдов"
+							},
+							{
+								"original": "How long is your nose?",
+								"translation": "Какой длины твой нос?"
+							}
+						]
+					},
+					{
+						"definition": "а) долгий, длительный, существующий давно; продолжительный; затяжной",
+						"examples": [
+							{
+								"original": "long vacation",
+								"translation": "летние каникулы (в университетах и судах Великобритании)"
+							},
+							{
+								"original": "a long(-lasting) relationship / friendship / love",
+								"translation": "длительные отношения, старинная дружба, любовь надолго"
+							},
+							{
+								"original": "an illness of long standing",
+								"translation": "застарелая болезнь"
+							},
+							{
+								"original": "long cold winter",
+								"translation": "долгая холодная зима"
+							},
+							{
+								"original": "long custom / tradition",
+								"translation": "старинный обычай, давняя традиция"
+							},
+							{
+								"original": "long words",
+								"translation": "длинная, долгая речь"
+							},
+							{
+								"original": "long memory",
+								"translation": "долгая, хорошая память"
+							},
+							{
+								"original": "for a long time",
+								"translation": "очень долго"
+							},
+							{
+								"original": "a long time ago",
+								"translation": "очень давно"
+							},
+							{
+								"original": "in the long term",
+								"translation": "долгосрочный; перспективный"
+							},
+							{
+								"original": "long service",
+								"translation": "воен. сверхсрочная служба"
+							},
+							{
+								"original": "Long time no see!",
+								"translation": "амер.; шутл. Давно не виделись! (намеренно коверкая язык)"
+							},
+							{
+								"original": "We took a long farewell.",
+								"translation": "Мы долго прощались."
+							},
+							{
+								"original": "She gave him a long look / stare.",
+								"translation": "Она пристально посмотрела на него."
+							}
+						]
+					},
+					{
+						"definition": "б) обладающий определённой протяжённостью, длящийся столько-то",
+						"examples": [
+							{
+								"original": "a (whole) life long",
+								"translation": "длиной в (целую) жизнь; всю жизнь"
+							},
+							{
+								"original": "an hour / three hours long",
+								"translation": "часовой (продолжительностью в один час), трёхчасовой"
+							},
+							{
+								"original": "(two days, a week) at (the) longest",
+								"translation": "самое большее (два дня, неделю)"
+							},
+							{
+								"original": "How long does it take you to get there?",
+								"translation": "Сколько времени тебе нужно, чтобы добраться туда?"
+							}
+						]
+					},
+					{
+						"definition": "3) долгий, медленный; неспешный, медлительный",
+						"examples": [
+							{
+								"original": "a long count by the referee",
+								"translation": "(намеренно) медленный отсчёт времени судьёй (в спорте)"
+							},
+							{
+								"original": "to be long about smth., to be long doing smth.",
+								"translation": "копошиться, копаться (делая что-л.); возиться, канителиться (с чем-л.)"
+							},
+							{
+								"original": "How long he is!",
+								"translation": "Что он так долго?!"
+							}
+						]
+					},
+					{
+						"definition": "а) многочисленный, большой; обширный (состоящий из многих пунктов, насчитывающий много объектов)",
+						"examples": [
+							{
+								"original": "long list",
+								"translation": "огромный, длинный список"
+							},
+							{
+								"original": "(a book) 300 pages long",
+								"translation": "(книга) в триста страниц"
+							},
+							{
+								"original": "long family",
+								"translation": "большая, многодетная семья"
+							}
+						]
+					},
+					{
+						"definition": "б) огромный, избыточный, непомерно высокий",
+						"examples": [
+							{
+								"original": "long odds",
+								"translation": "карт. высокие ставки"
+							},
+							{
+								"original": "long bill",
+								"translation": "раздутый счёт"
+							},
+							{
+								"original": "long prices",
+								"translation": "непомерные, бешеные цены"
+							},
+							{
+								"original": "The guy's a long purse!",
+								"translation": "У него денег до чёрта!"
+							}
+						],
+						"synonym": "high, large"
+					},
+					{
+						"definition": "5) длинный, далёкий (далеко направленный)",
+						"examples": [
+							{
+								"original": "a long left jab",
+								"translation": "длинный удар левой (в боксе)"
+							},
+							{
+								"original": "to hit the long ball",
+								"translation": "выбить мяч далеко, сильно ударить (в футболе)"
+							},
+							{
+								"original": "at long weapon",
+								"translation": "воен. на расстоянии"
+							},
+							{
+								"original": "long train",
+								"translation": "поезд дальнего следования (от long distance train)"
+							}
+						]
+					},
+					{
+						"definition": "6) лингв."
+					},
+					{
+						"definition": "а) долгий (гласный); слоговой (об элементе дифтонга)"
+					},
+					{
+						"definition": "б) ударный"
+					},
+					{
+						"definition": "а) отдалённый, отложенный на будущее",
+						"examples": [
+							{
+								"original": "long date",
+								"translation": "отдалённый срок"
+							},
+							{
+								"original": "long thoughts",
+								"translation": "мысли о будущем"
+							},
+							{
+								"original": "long guess",
+								"translation": "долгосрочный прогноз, ожидание на будущее"
+							}
+						]
+					},
+					{
+						"definition": "б) фин. долгосрочный",
+						"examples": [
+							{
+								"original": "a long note / bill / lease",
+								"translation": "долгосрочный вексель, аренда"
+							}
+						]
+					},
+					{
+						"definition": "8) (long on)"
+					},
+					{
+						"definition": "а) отличающийся (какой-л. чертой)",
+						"examples": [
+							{
+								"original": "to be long on common sense",
+								"translation": "быть весьма здравомыслящим"
+							},
+							{
+								"original": "to be long on hope",
+								"translation": "не переставать надеяться"
+							},
+							{
+								"original": "to be long on patience",
+								"translation": "очень долго терпеть, уметь долго ждать"
+							}
+						]
+					},
+					{
+						"definition": "б) амер.; разг. богатый (чем-л.), сильный в (чём-л.)",
+						"examples": [
+							{
+								"original": "He's long on good ideas.",
+								"translation": "Он полон хороших идей."
+							}
+						]
+					},
+					{
+						"definition": "9) целый, добрый",
+						"examples": [
+							{
+								"original": "long mile",
+								"translation": "целая миля, не меньше мили"
+							},
+							{
+								"original": "to be waiting for a long hour",
+								"translation": "ждать битый час"
+							}
+						]
+					},
+					{
+						"definition": "10) продолговатый, удлинённый"
+					},
+					{
+						"definition": "11) фин. играющий на повышение",
+						"examples": [
+							{
+								"original": "They are now long on wheat.",
+								"translation": "Сейчас они играют на повышение цен на пшеницу."
+							},
+							{
+								"original": "long shillings",
+								"translation": "хороший заработок"
+							},
+							{
+								"original": "long ears",
+								"translation": "глупость, наивность"
+							},
+							{
+								"original": "long head",
+								"translation": "ум, башковитость; предусмотрительность"
+							},
+							{
+								"original": "to make a long nose",
+								"translation": "показать \"нос\""
+							},
+							{
+								"original": "to have a long tongue",
+								"translation": "много болтать"
+							},
+							{
+								"original": "to make / pull a long face",
+								"translation": "помрачнеть"
+							},
+							{
+								"original": "to get a long start over smb.",
+								"translation": "значительно опередить кого-л."
+							}
+						]
+					}
+				]
+			},
+			{
+				"partOfSpeech": "adverb",
+				"transcription": "lɔŋ",
+				"definitions": [
+					{
+						"definition": "а) долго, длительно; в течение долгого времени",
+						"examples": [
+							{
+								"original": "long a popular hangout",
+								"translation": "долгое время популярное заведение"
+							},
+							{
+								"original": "It won't be long.",
+								"translation": "Это ненадолго."
+							},
+							{
+								"original": "Stay for as long as you like.",
+								"translation": "Оставайтесь столько, сколько вам будет угодно."
+							},
+							{
+								"original": "Wait a while longer.",
+								"translation": "Подождите ещё немного."
+							},
+							{
+								"original": "I shall not wait (any) longer.",
+								"translation": "Не буду больше ждать."
+							}
+						]
+					},
+					{
+						"definition": "б) до определённого времени",
+						"examples": [
+							{
+								"original": "She didn't stay longer than midnight.",
+								"translation": "Она осталась только до полуночи."
+							},
+							{
+								"original": "It is no longer possible.",
+								"translation": "Это больше невозможно."
+							}
+						]
+					},
+					{
+						"definition": "2) далеко, на далёкое расстояние",
+						"examples": [
+							{
+								"original": "I didn't travel that long.",
+								"translation": "Я так далеко не ездил."
+							},
+							{
+								"original": "He threw the ball long.",
+								"translation": "Он бросил мяч далеко."
+							}
+						],
+						"synonym": "far"
+					},
+					{
+						"definition": "а) давно, задолго до",
+						"examples": [
+							{
+								"original": "long ago / since",
+								"translation": "давным-давно, уже очень давно"
+							},
+							{
+								"original": "to be past long",
+								"translation": "случаться давно"
+							},
+							{
+								"original": "long past",
+								"translation": "давнопрошедший; давний, далёкий"
+							},
+							{
+								"original": "long before you were born",
+								"translation": "задолго до твоего появления на свет"
+							},
+							{
+								"original": "She was excited long before the big day.",
+								"translation": "Она была вся в нервном напряжении ещё задолго до этого события."
+							}
+						]
+					},
+					{
+						"definition": "б) потом; долгое время спустя",
+						"examples": [
+							{
+								"original": "long after midnight",
+								"translation": "далеко за полночь"
+							}
+						]
+					},
+					{
+						"definition": "4) полностью, целиком",
+						"examples": [
+							{
+								"original": "all day / night long",
+								"translation": "целый день, всю ночь (напролёт)"
+							},
+							{
+								"original": "all smb.'s life long",
+								"translation": "всю свою жизнь; в течение всей своей жизни"
+							}
+						]
+					},
+					{
+						"definition": "5) фин. на повышение",
+						"examples": [
+							{
+								"original": "to go long 100 shares",
+								"translation": "купить 100 акций в расчёте на повышение"
+							},
+							{
+								"original": "you may do smth. long enough",
+								"translation": "хоть в лепёшку разбейся"
+							}
+						]
+					}
+				]
+			},
+			{
+				"partOfSpeech": "noun",
+				"transcription": "lɔŋ",
+				"definitions": [
+					{
+						"definition": "1) долгое время; долгий срок, долгий период времени",
+						"examples": [
+							{
+								"original": "before long",
+								"translation": "скоро; вскоре, в ближайшем времени"
+							},
+							{
+								"original": "for long",
+								"translation": "надолго, на долгое время"
+							},
+							{
+								"original": "It can take long.",
+								"translation": "Это может занять много времени."
+							},
+							{
+								"original": "It didn't take him long to come.",
+								"translation": "Его не пришлось долго ждать."
+							}
+						]
+					},
+					{
+						"definition": "2) лингв. долгий гласный; слоговой гласный дифтонга"
+					},
+					{
+						"definition": "3) (the long) летние каникулы (в университетах и судах Великобритании)",
+						"synonym": "long vacation"
+					},
+					{
+						"definition": "4) фин. маклер, спекулянт, играющий на повышение"
+					},
+					{
+						"definition": "5) (longs)"
+					},
+					{
+						"definition": "а) брюки, длинные штаны (в противопоставление shorts)"
+					},
+					{
+						"definition": "б) большие размеры мужской одежды"
+					}
+				]
+			},
+			{
+				"partOfSpeech": "verb",
+				"transcription": "lɔŋ",
+				"definitions": [
+					{
+						"definition": "очень хотеть, страстно желать (чего-л.), испытывать потребность (в чём-л.), стремиться (к чему-л.)",
+						"examples": [
+							{
+								"original": "I long for you.",
+								"translation": "Ты мне очень нужен, я не могу без тебя."
+							},
+							{
+								"original": "After she left me I was longing for a change in my life.",
+								"translation": "После того, как она меня покинула, мне очень хотелось радикально изменить свою жизнь."
+							},
+							{
+								"original": "He was longing for a shower.",
+								"translation": "Он не мог дождаться момента, когда сможет принять душ."
+							},
+							{
+								"original": "They long for peace but are driven to war.",
+								"translation": "Они стремятся к миру, а их заставляют воевать."
+							},
+							{
+								"original": "I'm longing for a smoke.",
+								"translation": "До смерти хочется курить."
+							}
+						],
+						"synonym": "yearn, wish, desire, to be eager"
+					}
+				]
+			}
+		]
+	}
+]
