@@ -1,11 +1,11 @@
 const fs = require('node:fs');
 
-const sourceTextPath = './files/test-dict.dsl';
-const outputTextPath = './files/demo-dictionary.json';
+// const sourceTextPath = './files/test-dict.dsl';
+// const outputTextPath = './files/demo-dictionary.json';
 
 // a source file must be utf-8!
-// const sourceTextPath = './dict-source/LingvoUniversalEnRu.dsl';
-// const outputTextPath = './dict-source/dictionary.json';
+const sourceTextPath = './dict-source/LingvoUniversalEnRu.dsl';
+const outputTextPath = './dict-source/dictionary.json';
 
 const sourceText = fs.readFileSync(sourceTextPath, 'utf-8');
 const sourceStringArray = sourceText.replaceAll('\r\n', '\n').split('\n');
@@ -166,7 +166,7 @@ function clearArticle() {
 function pushTerm() {
 	pushArticle();
 
-	if (!term) {
+	if (!term || !articles?.length) {
 		return;
 	}
 
@@ -177,7 +177,7 @@ function pushTerm() {
 	}
 
 	result.push({
-		term,
+		term: term.trim(),
 		articles
 	});
 
