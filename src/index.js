@@ -1,5 +1,13 @@
 const fs = require('node:fs');
 
+const dictionaryName = 'Lingvo-en-ru';
+const dictionaryTermLanguage = 'en';
+const dictionaryLicense = 'Not licensed'
+const updateDate = new Date().toISOString();
+const formatDescriptor = 'JSONDictionary';
+
+const isShortVersion = true;
+
 // const sourceTextPath = './files/test-dict.dsl';
 // const outputTextPath = './files/demo-dictionary.json';
 
@@ -10,7 +18,7 @@ const outputTextPath = './dict-source/dictionary.json';
 const sourceText = fs.readFileSync(sourceTextPath, 'utf-8');
 const sourceStringArray = sourceText.replaceAll('\r\n', '\n').split('\n');
 
-const result = [];
+const terms = [];
 
 let term = '';
 let transcription = '';
@@ -21,8 +29,8 @@ let definitions = [];
 let articles = [];
 let synonym = '';
 let antonym = '';
-let nextLineIsSynonim = false;
-let nextLineIsAntonim = false;
+let nextLineIsSynonym = false;
+let nextLineIsAntonym = false;
 
 for (let i = 0; i < sourceStringArray.length; i++) {
 	const item = sourceStringArray[i].trim();
@@ -38,32 +46,32 @@ for (let i = 0; i < sourceStringArray.length; i++) {
 		continue;
 	}
 
-	const tr = getTranscritpion(item);
+	const tr = getTranscription(item);
 	if (tr) {		
 		transcription = clear(tr);
 		partOfSpeech = '';
 		continue;
 	}
 
-	if (nextLineIsSynonim) {
-		nextLineIsSynonim = false;
+	if (nextLineIsSynonym) {
+		nextLineIsSynonym = false;
 		synonym = clear(item);		
 		continue;
 	}
 
 	if (item.includes('[b]Syn:[/b]')) {		
-		nextLineIsSynonim = true;
+		nextLineIsSynonym = true;
 		continue;
 	}
 
-	if (nextLineIsAntonim) {
-		nextLineIsAntonim = false;
+	if (nextLineIsAntonym) {
+		nextLineIsAntonym = false;
 		synonym = clear(item);
 		continue;
 	}
 
 	if (item.includes('[b]Ant:[/b]')) {
-		nextLineIsAntonim = true;
+		nextLineIsAntonym = true;
 		continue;
 	}
 
@@ -137,7 +145,7 @@ function getPartOfSpeech(item) {
 	return result;
 }
 
-function getTranscritpion(item) {
+function getTranscription(item) {
 	return item.match(/\[t\].+?\[\/t\]/)?.[0];
 }
 
@@ -175,8 +183,16 @@ function pushTerm() {
 
 		return;
 	}
+	
+	if (isShortVersion) {
+		if (term[0] === '(' || term.includes('-') || term.trim().includes(' ') ) {
+			clearTerm();
 
-	result.push({
+			return;
+		}
+	}
+
+	terms.push({
 		term: term.trim(),
 		articles
 	});
@@ -263,4 +279,4 @@ function clear(text) {
 
 console.log('======== Done! ============');
 
-fs.writeFileSync(outputTextPath, JSON.stringify(result));
+fs.writeFileSync(outputTextPath, JSON.stringify({formatDescriptor, dictionaryName, isShortVersion, dictionaryTermLanguage, dictionaryLicense, updateDate, terms}));

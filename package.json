@@ -4,7 +4,8 @@
   "description": "Convert dsl-dictionary into json",
   "main": "src/index.js",
   "scripts": {
-    "start": "node src/index.js"
+    "start": "node src/index.js",
+    "morph": "node src/morphology.js"
   },
   "author": "Andrew Faurash",
   "license": "MIT"
