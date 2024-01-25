@@ -5,7 +5,8 @@
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js",
-    "morph": "node src/morphology.js"
+    "morph": "node src/morphology.js",
+    "uniter": "node src/uniter.js"
   },
   "author": "Andrew Faurash",
   "license": "MIT"
