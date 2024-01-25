@@ -13,7 +13,7 @@ const isShortVersion = true;
 
 // a source file must be utf-8!
 const sourceTextPath = './dict-source/LingvoUniversalEnRu.dsl';
-const outputTextPath = './dict-source/dictionary.json';
+const outputTextPath = './dict-source/lingvo.json';
 
 const sourceText = fs.readFileSync(sourceTextPath, 'utf-8');
 const sourceStringArray = sourceText.replaceAll('\r\n', '\n').split('\n');
