@@ -23,8 +23,8 @@ const dict2 = JSON.parse(source2);
 
 const newDictionaryArticles = {};
 
-addDictionary(dict1, dictName1);
 addDictionary(dict2, dictName2);
+addDictionary(dict1, dictName1);
 
 const newDictionaryToExport = Object.keys(newDictionaryArticles).map(key => {
 	return {

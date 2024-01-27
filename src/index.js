@@ -48,7 +48,7 @@ for (let i = 0; i < sourceStringArray.length; i++) {
 
 	const tr = getTranscription(item);
 	if (tr) {		
-		transcription = clear(tr);
+		transcription = '[' + clear(tr) + ']';
 		partOfSpeech = '';
 		continue;
 	}
