@@ -48,11 +48,6 @@ async function computeSourceObj(sourceTextPath) {
                 const defObject = {definition}
 
                 if (partOfSpeech && definition) {
-                    const article = {
-                        partOfSpeech,
-                        definitions: [defObject]
-                    }
-
                     if (meaning.example) {
                         defObject.examples = [{original: meaning.example}];
                     }
@@ -61,7 +56,18 @@ async function computeSourceObj(sourceTextPath) {
                         defObject.synonym = meaning.synonyms.join(' | ')
                     }
 
-                    articles.push(article);
+                    const existingArticle = articles.find(item => item.partOfSpeech === partOfSpeech);
+
+                    if (existingArticle?.definitions?.length) {
+                        existingArticle.definitions.push(defObject);
+                    } else {
+                        const article = {
+                            partOfSpeech,
+                            definitions: [defObject]
+                        }
+
+                        articles.push(article);
+                    }
                 }
             })
         }
