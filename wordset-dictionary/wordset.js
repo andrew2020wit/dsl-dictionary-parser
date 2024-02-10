@@ -5,12 +5,8 @@ const dictionaryTermLanguage = 'en';
 const dictionaryLicense = 'https://github.com/wordset/wordset-dictionary'
 const updateDate = new Date().toISOString();
 const formatDescriptor = 'JSONDictionary';
-
 const isShortVersion = false;
-
-const sourceTextPath = './data/a.json';
 const outputTextPath = './wordset.json';
-
 const terms = [];
 
 readFiles().then();
@@ -31,9 +27,9 @@ async function readFiles() {
         await computeSourceObj(baseDir + fileName);
     }
 
-    console.log('======== Done! ============');
+    await fs.writeFile(outputTextPath, JSON.stringify({formatDescriptor, dictionaryName, isShortVersion, dictionaryTermLanguage, dictionaryLicense, updateDate, terms}, null, 2));
 
-    await fs.writeFile(outputTextPath, JSON.stringify({formatDescriptor, dictionaryName, isShortVersion, dictionaryTermLanguage, dictionaryLicense, updateDate, terms}));
+    console.log('======== Done! ============');
 }
 
 async function computeSourceObj(sourceTextPath) {

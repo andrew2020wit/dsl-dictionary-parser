@@ -56,6 +56,6 @@ function addDictionary(dict, dictionaryName) {
 	});
 }
 
-console.log('======== Done! ============');
+fs.writeFileSync(outputPath, JSON.stringify({ formatDescriptor, dictionaryName, dictionaryTermLanguage, dictionaryLicense, updateDate, terms: newDictionaryToExport }, null, 2));
 
-fs.writeFileSync(outputPath, JSON.stringify({ formatDescriptor, dictionaryName, dictionaryTermLanguage, dictionaryLicense, updateDate, terms: newDictionaryToExport }));
+console.log('======== Done! ============');
