@@ -1,30 +1,35 @@
 const fs = require('node:fs');
 
-const dictionaryName = 'Lingvo-end-Longman';
+const dictionaryName = 'CALD-Lingvo-Longman';
 const dictionaryTermLanguage = 'en';
 const dictionaryLicense = 'Not licensed';
 const updateDate = new Date().toISOString();
 const formatDescriptor = 'JSONDictionary';
 
 // a source file must be utf-8!
-const sourcePath1 = './dict-source/lingvo.json';
-const sourcePath2 = './dict-source/longman.json';
+const lingvoPath = './dict-source/lingvo.json';
+const longmanSourcePath = './dict-source/longman.json';
+const caldSourcePath = './dict-source/cald-dictionary.json';
 
-const dictName1 = 'lingvo';
-const dictName2 = 'longman';
+const lingvoName = 'lingvo';
+const longmanName = 'longman';
+const caldName = 'CALD';
 
-const outputPath = './dict-source/longman-and-lingvo.json';
+const outputPath = './dict-source/cald-lingvo-longman.json';
 
-const source1 = fs.readFileSync(sourcePath1, 'utf-8');
-const source2 = fs.readFileSync(sourcePath2, 'utf-8');
+const lingvoSource = fs.readFileSync(lingvoPath, 'utf-8');
+const longmanSource = fs.readFileSync(longmanSourcePath, 'utf-8');
+const caldSource = fs.readFileSync(caldSourcePath, 'utf-8');
 
-const dict1 = JSON.parse(source1);
-const dict2 = JSON.parse(source2);
+const dictLingvo = JSON.parse(lingvoSource);
+const dictLongman = JSON.parse(longmanSource);
+const dictCald = JSON.parse(caldSource);
 
 const newDictionaryArticles = {};
 
-addDictionary(dict2, dictName2);
-addDictionary(dict1, dictName1);
+addDictionary(dictCald, caldName);
+addDictionary(dictLingvo, lingvoName);
+addDictionary(dictLongman, longmanName);
 
 const newDictionaryToExport = Object.keys(newDictionaryArticles).map(key => {
 	return {
