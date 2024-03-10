@@ -18,7 +18,7 @@ create json wordset-dictionary
 
 ## add-transcription.js
 
-add translation to json-dictionary from other json-dictionary.
+add transcription to json-dictionary from other json-dictionary.
 
 See also:
 
